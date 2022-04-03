@@ -1,0 +1,58 @@
+*{
+    margin :0;
+    padding: 0;
+    background-color: aquamarine;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+}
+
+.header-text{
+    font-size: 25px;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    margin: 225px 0px;
+}
+
+.welcome-text{
+    font-size: 40px;
+}
+
+.button{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin: 10px;
+    margin: 50px 0px;
+}
+
+.button>a, .button>button{
+    margin: auto 20px;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 100px;
+    font-size: 30px;
+    color: black;
+}
+
+.login-button{
+    background-color: coral;
+}
+
+.register-button{
+    background-color: cornflowerblue;
+}
